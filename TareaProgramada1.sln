@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TareaProgramada1", "TareaProgramada1\TareaProgramada1.vbproj", "{20BB4405-939B-4F8A-8FA3-8B093A9E8F2F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrograBD", "..\..\PrograBD\PrograBD\PrograBD\PrograBD.vbproj", "{5E8606A6-3226-42B3-8ACA-D22C9714C521}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{20BB4405-939B-4F8A-8FA3-8B093A9E8F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20BB4405-939B-4F8A-8FA3-8B093A9E8F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20BB4405-939B-4F8A-8FA3-8B093A9E8F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8606A6-3226-42B3-8ACA-D22C9714C521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8606A6-3226-42B3-8ACA-D22C9714C521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8606A6-3226-42B3-8ACA-D22C9714C521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8606A6-3226-42B3-8ACA-D22C9714C521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {60E01706-F366-45DB-BEB4-7583907B9EC8}
+		SolutionGuid = {47469E23-96D3-4BC3-AF6E-1F378814D7C3}
 	EndGlobalSection
 EndGlobal
