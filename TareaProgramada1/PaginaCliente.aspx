@@ -23,13 +23,11 @@
         Estados de Cuenta:<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:CommandField ShowSelectButton="True" />
                 <asp:BoundField DataField="FechaInicio" HeaderText="FechaInicio" SortExpression="FechaInicio" />
                 <asp:BoundField DataField="FechaFin" HeaderText="FechaFin" SortExpression="FechaFin" />
                 <asp:BoundField DataField="SaldoInicial" HeaderText="SaldoInicial" SortExpression="SaldoInicial" />
                 <asp:BoundField DataField="SaldoFinal" HeaderText="SaldoFinal" SortExpression="SaldoFinal" />
-                <asp:BoundField DataField="QRCH" HeaderText="QRCH" SortExpression="QRCH" />
-                <asp:BoundField DataField="QRCA" HeaderText="QRCA" SortExpression="QRCA" />
+                <asp:BoundField DataField="Intereses" HeaderText="Intereses" SortExpression="Intereses" />
                 <asp:BoundField DataField="SaldoMinimo" HeaderText="SaldoMinimo" SortExpression="SaldoMinimo" />
             </Columns>
             <EditRowStyle BackColor="#999999" />
