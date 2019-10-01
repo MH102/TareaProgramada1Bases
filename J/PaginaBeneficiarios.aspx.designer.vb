@@ -122,15 +122,6 @@ Partial Public Class PaginaBeneficiarios
     Protected WithEvents TextBoxPorcent As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''lblRange control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblRange As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
     '''RangeValidator control.
     '''</summary>
     '''<remarks>
@@ -237,15 +228,6 @@ Partial Public Class PaginaBeneficiarios
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''TextBoxNumCuenta control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBoxNumCuenta As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Label8 control.

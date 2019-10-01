@@ -18,15 +18,15 @@ Public Class PaginaBeneficiarios
         command.CommandText = "agregarBeneficiario"
 
 
-        Dim param(10) As SqlParameter
+        Dim param(9) As SqlParameter
         param(0) = New SqlParameter("@nombre", SqlDbType.VarChar)
         param(0).Value = TextBoxNombre.Text
 
-        param(1) = New SqlParameter("@porcentaje", SqlDbType.Int)
-        param(1).Value = TextBoxPorcent.Text
+        param(1) = New SqlParameter("@fecha", SqlDbType.Date)
+        param(1).Value = TextBoxFecha.Text
 
-        param(2) = New SqlParameter("@fecha", SqlDbType.Date)
-        param(2).Value = TextBoxFecha.Text
+        param(2) = New SqlParameter("@idCuenta", SqlDbType.Int)
+        param(2).Value = Session("IdCuenta").ToString()
 
         param(3) = New SqlParameter("@parentesco", SqlDbType.VarChar)
         param(3).Value = DropDownParent.SelectedValue.ToString()
@@ -46,8 +46,8 @@ Public Class PaginaBeneficiarios
         param(8) = New SqlParameter("@tipoDoc", SqlDbType.Int)
         param(8).Value = DropDownTipoId.SelectedValue
 
-        param(9) = New SqlParameter("@numCuenta", SqlDbType.Int)
-        param(9).Value = TextBoxNumCuenta.Text
+        param(9) = New SqlParameter("@porcentaje", SqlDbType.Int)
+        param(9).Value = TextBoxPorcent.Text
 
 
         Dim command1 As New SqlCommand()
@@ -142,10 +142,6 @@ Public Class PaginaBeneficiarios
 
     Protected Sub ButtonEstados_Click(sender As Object, e As EventArgs) Handles ButtonEstados.Click
         Response.Redirect("~/PaginaCliente.aspx")
-    End Sub
-
-    Protected Sub TextBoxPorcent_TextChanged(sender As Object, e As EventArgs) Handles TextBoxPorcent.TextChanged, lblRange.DataBinding
-
     End Sub
 
 End Class
